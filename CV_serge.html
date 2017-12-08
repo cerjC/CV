@@ -41,7 +41,7 @@
 						</div>
 						<div class="col-md-5 col-xs-5">
 
-							<p id="ledebut">Bonjour,<br>Actuellement en poste en qualité de Développeur web, je recherche un emploi à partir du mois de janvier. </p>
+							<span id="ledebut">Bonjour,<br>Actuellement en poste en qualité de Développeur web, je recherche un emploi à partir du mois de janvier. </span>
 							<br>
 							<div style="margin-top: 10%">
 								<a href="#"><i class="fa fa-facebook-official fa-3x" aria-hidden="true" id="fb" ></i></a>
@@ -52,7 +52,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 col-xs-3">
-							<img src="portrait.png"  style="margin-top:-3%;margin-bottom: -3%;margin-left:25%">
+							<img src="css/portrait.png"  style="margin-top:-3%;margin-bottom: -3%;margin-left:25%">
 						</div>
 					</div>
 				</div>
@@ -85,13 +85,13 @@
 									<h3 class="title">Activités et domaines de compétences</h3>
 									<ul>
 										<li><p><b>O.S. :</b> Windows 10, linux ,ubuntu</p></li>
-										<li><p><b>Base de données :</b> Microsoft Sql Server 2012 / TSql (Oracle, PostGres, MySql...)</p></li>
+										<li><p><b>Base de données :</b> Microsoft Sql Server / TSql (Oracle, PostGres, MySql...)</p></li>
 										<li><p><b>Langage :</b> Html 5 / Css 3 , Php ,  Python, JavaScript </p></li>
-										<li><p><b>Framework :</b> Css : bootstrap  JavaScript : JQuery, AngularJS </p></li>
+										<li><p><b>Framework :</b> bootstrap, JQuery, AngularJS, Angular2 </p></li>
 										<li><p><b>Gestionnaire de contenu :</b>WordPress</p></li>
 										<li><p><b>Méthode :</b> Merise, UML, Sybase PowerAMC</p></li>
 										<li><p><b>Gestion de versions :</b> github</p></li>
-										<li><p><b>Divers :</b> Gimp, Cubase SX5 (M.A.O), Django</p></li>
+										<li><p><b>Divers :</b> </p></li>
 									</ul>
 
 								</div>
@@ -288,16 +288,15 @@
 					<div class="col-md-6">
 						<div class="box">
 							<div class="icon">
-								<div class="image2"><i class="fa fa-free-code-camp" aria-hidden="true"></i></div>
+								<div class="image2"><i class="fa fa-user" aria-hidden="true"></i></div>
 								<div class="info2">
 									<h3 class="title">Divers</h3>
 									<ul>
 										<li><p>Anglais Technique,</p></li>
 										<li><p>Permis B,Véhicule,</p></li>
 										<li><p>Espagnol courant </p></li>
-										<li><p>Pratique du sport régulière (jogging,yoga</p></li>
-										<li><p>fitness)</p></li>
-										<li><p>Pratique de la musique en amateur.</p></li>
+										<li><p>Pratique du sport régulière (jogging,yoga)</p></li>
+										<li><p>Musique en amateur.</p></li>
 									</ul>
 								</div>
 							</div>
@@ -438,14 +437,22 @@
 
     $("p").on({
         mouseenter: function(){
-            $(this).css("color", "#4ddbff");
+            $(this).css("color", "#421180");
         },
         mouseleave: function(){
-            $(this).css("color", "#421180");
+            $(this).css("color", "black");
         },
         click: function(){
             $(this).css("background-color", "yellow");
         }
     });
+
+
+
+        $("#ledebut").hover(function(){
+            $(this).css("color", "#4ddbff");
+        }, function(){
+            $(this).css("color", "black");
+        });
 
 </script>

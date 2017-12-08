@@ -1,18 +1,18 @@
 .header
 {
     background: fixed;
-    background:url("space.jpg") fixed no-repeat center;
+    background:url("css/space.jpg") fixed no-repeat center;
     padding: 150px;
     height:350px;
 }
 
 @font-face {
     font-family: 'quicksand';
-    src : url('quicksand/Quicksand-Light.otf');
+    src : url('css/quicksand/Quicksand-Light.otf');
 }
 @font-face {
     font-family: 'munson';
-    src : url('munson/munson_roman.otf');
+    src : url('css/munson/munson_roman.otf');
 }
 header
 {
@@ -32,7 +32,7 @@ h3
 p
 {
     font-family: 'munson';
-    color: #421180;
+    color: black;
     font-size: 121%;
 }
 #ledebut
